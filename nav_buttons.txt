@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="icon" href="../../favicon.ico">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <title>Narrow Jumbotron Template for Bootstrap</title>
+
+   <!-- Bootstrap core CSS -->
+   <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+   <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+   <!-- Custom styles for this template -->
+   <link href="jumbotron-narrow.css" rel="stylesheet">
+
+   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+   <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <style type="text/css">
+       li{
+        list-style: none;
+      }
+
+      img{
+        opacity: 0.3;
+
+      }
+      .container > div > a{
+        color:#337ab7;
+      }
+
+    a:hover {
+    text-decoration: none color:blue;
+    }
+    a:visited {
+    text-decoration: none;
+    }
+    a:link {
+    text-decoration: none;
+    }
+    a:active {
+    text-decoration: none;
+    }
+    </style>
+  </head>
+
+  <body>
+
+   <div class="container">
+
+    <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="#">about us</a></li>
+            
+             <li role="presentation" ><a href="#">contact-us</a></li>
+             <li><a class="btn btn-primary" href="#">login</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="text-muted"><h2>Food Mood Cook Book</h2></a>
+      </div>
+   </div> 
+                
+     <div class="jumbotron">
+     <h1>Jumbotron heading</h1>
+
+       <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      <p><a class="btn btn-lg btn-success" href="#" role="button">food tip of the day</a> <a class="btn btn-lg btn-success" href="#" role="button">workout tip of the day</a></p>
+     </div>  
+                    <div class="container-fluid"> 
+                    <div class="row">
+                    <div class="col-sm-8">
+                     <nav> 
+                     <ul class="nav nav-pillsgit">
+                     <div class="btn-toolbar" role="toolbar" aria-label="Symptoms">
+                     
+                            <div class="col-m-10">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>Lethargy</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" >
+                            <li><a href="#">Why do you feel Lethargic</a></li>
+                            <li><a href="#">Foods to help you</a></li>
+                            <li><a href="#">Exercises to help you</a></li>
+                            </ul>
+                            </div> 
+                            </div>  
+
+                            <div class="col-m-10"> 
+                            <div class="btn-group">                                        
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>Feeling Exhausted</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Why do you feel Exhausted</a></li>
+                            <li><a href="#">Foods to help you</a></li>
+                            <li><a href="#">Exercises to help you</a></li>
+                            </ul>
+                            </div>
+
+                            <div class="col-m-10">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>Feeling Unhappy</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Why do you feel Unhappy</a></li>
+                            <li><a href="#">Foods to help you</a></li>
+                            <li><a href="#">Exercises to help you</a></li>
+                            </ul>
+                            </div>
+
+                            <div class="col-m-10">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>Feeling Muscle Pain</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Why do you feel Muscle Pain</a></li>
+                            <li><a href="#">Foods to help you</a></li>
+                            <li><a href="#">Exercises to help you</a></li>
+                           </ul>
+                     </ul>
+                     </div>
+                     </div>
+                      </div>
+                     </div>
+                     </nav>
+                 </div>
+                 </div>
+                 </div>
+           </div>
+
+           </ul>
+           </nav>
+           </div>
+           </div>
+           </div>
+           </body>
+             
+   
+
+     
+
+     <footer class="footer">
+       <p>&copy; 2016 Code Institute Practice Company, Inc.</p>
+     </footer>
+
+   </div> <!-- /container -->
+
+
+   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+   <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+   <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ </body>
+</html>
