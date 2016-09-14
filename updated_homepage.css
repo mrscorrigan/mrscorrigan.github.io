@@ -1,0 +1,9 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: src="SF.JPG" alt="fruit" style="width:1000px;height:800;">
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
